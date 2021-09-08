@@ -22,10 +22,10 @@
 		      String to = "abdulghani8433@gmail.com";
 
 		      // Sender's email ID needs to be mentioned
-		      String from = "vamsichegondi@gmail.com";
+		      String from = "*****@gmail.com";
 
-		      final String username = "vamsichegondi@gmail.com";//change accordingly
-		      final String password = " VAMSICHE";//change accordingly
+		      final String username = "**@gmail.com";//change accordingly
+		      final String password = " **pwd";//change accordingly
 
 		      // Assuming you are sending email through relay.jangosmtp.net
 		      String host = "smtp.gmail.com";
@@ -40,7 +40,7 @@
 		      Session session = Session.getInstance(props,
 		         new javax.mail.Authenticator() {
 		            protected PasswordAuthentication getPasswordAuthentication() {
-		               return new PasswordAuthentication("vamsichegondi", " VAMSICHE");
+		               return new PasswordAuthentication("username", " pwd****");
 		            }
 		         });
 
